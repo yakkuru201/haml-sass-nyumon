@@ -1,17 +1,9 @@
-/* comment */
-/*
-comment
-comment
-*/
 #main {
   width: 90%;
 }
 #main p {
-  font-size: 16px;
+  font-size: 14px;
 }
-#main p a {
-  text-decoration: none;
-}
-#main p a:hover {
-  font-weight: bold;
+#main p .sub {
+  font-size: 12px;
 }

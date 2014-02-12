@@ -1,20 +1,14 @@
-/* comment */
-/*
-comment
-comment
-*/
+//変数:データにつけるラベル
+//データ型（数値，文字列，真偽，色，リスト）
 
-//comment
+$baseFontSize: 14px; //同時に扱える便利
 
 #main{
   width: 90%;
   p{
-    font-size: 16px;
-    a{
-      text-decoration: none;
-      &:hover{
-        font-weight: bold;
-      }
+    font-size: $baseFontSize;
+    .sub{
+      font-size: $baseFontSize - 2px;
     }
   }
 }
