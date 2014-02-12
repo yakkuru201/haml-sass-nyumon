@@ -3,10 +3,16 @@
   %head
     %meta(charset="UTF-8")
   %body
-    %div{:id => "main", :class => "myClass"}
-    %div(id="main" class="myClass")
-    %div#main.myClass
-    #main.myClass
-
-    #main
-      .sumMenu
+    :css
+      .myStyle{
+        color: red;
+      }
+    :javascript
+      alert(1);
+      if(1){
+        alert(2);
+      }
+    %div
+      :escaped
+        <html>
+        </html>
