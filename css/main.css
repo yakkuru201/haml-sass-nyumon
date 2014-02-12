@@ -1,39 +1,11 @@
-.fs10 {
-  font-size: 10px;
+.animal-icon {
+  background: url("cat.png");
 }
 
-.fs11 {
-  font-size: 11px;
+.animal-icon {
+  background: url("dog.png");
 }
 
-.fs12 {
-  font-size: 12px;
-}
-
-.fs13 {
-  font-size: 13px;
-}
-
-.fs14 {
-  font-size: 14px;
-}
-
-.fs10 {
-  font-size: 10px;
-}
-
-.fs11 {
-  font-size: 11px;
-}
-
-.fs12 {
-  font-size: 12px;
-}
-
-.fs13 {
-  font-size: 13px;
-}
-
-.fs14 {
-  font-size: 14px;
+.animal-icon {
+  background: url("tiger.png");
 }
