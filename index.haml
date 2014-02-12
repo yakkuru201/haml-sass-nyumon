@@ -3,7 +3,10 @@
   %head
     %meta(charset="UTF-8")
   %body
-    %p hello
-    %ul
-      %li<>
-        item
+    %div{:id => "main", :class => "myClass"}
+    %div(id="main" class="myClass")
+    %div#main.myClass
+    #main.myClass
+
+    #main
+      .sumMenu
