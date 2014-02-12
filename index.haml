@@ -3,16 +3,11 @@
   %head
     %meta(charset="UTF-8")
   %body
-    :css
-      .myStyle{
-        color: red;
-      }
-    :javascript
-      alert(1);
-      if(1){
-        alert(2);
-      }
-    %div
-      :escaped
-        <html>
-        </html>
+    %p total is #{5 * 3}
+    %p= Time.now
+    - x = 5
+    %p= x
+
+    - (1..10).each do |a|
+      -#%p= a
+      %p{:id => "item_#{a}"} #{a}
