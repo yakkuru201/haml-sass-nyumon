@@ -1,7 +1,6 @@
 #main {
-  width: 90%;
+  color: red;
 }
-#main p {
-  color: rgba(255, 153, 153, 0.9);
-  font-size: 14px;
+#main else {
+  color: green;
 }

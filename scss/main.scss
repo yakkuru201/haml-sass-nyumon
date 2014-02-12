@@ -1,14 +1,21 @@
 //変数:データにつけるラベル
 //データ型（数値，文字列，真偽，色，リスト）
+//条件分岐 @if @else
+//== != < > <- >=
 
-$brandColor: rgba(255,0,0,0.9);
-
-//lighten darken
+$debugMode: true;
+$x: 10;
 
 #main{
-  width: 90%;
+  @if $debugMode == true{
+    color: red;
+  }
+  else{
+    color: green;
+  }
   p{
-    color: lighten($brandColor, 30%);
-    font-size: 14px;
+    @if $x > 20{
+      color: yellow;
+    }
   }
 }
