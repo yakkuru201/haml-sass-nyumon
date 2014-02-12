@@ -1,12 +1,14 @@
 //変数:データにつけるラベル
 //データ型（数値，文字列，真偽，色，リスト）
 
-$imgDir: "../img/";
+$brandColor: rgba(255,0,0,0.9);
+
+//lighten darken
 
 #main{
   width: 90%;
-  background: url("#{$imgDir}bg.png")
   p{
-    font-size: #{12 + 12}px;
+    color: lighten($brandColor, 30%);
+    font-size: 14px;
   }
 }

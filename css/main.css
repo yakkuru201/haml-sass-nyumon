@@ -1,5 +1,7 @@
 #main {
   width: 90%;
-  background: url("../img/bg.png") p;
-  background-font-size: 24px;
+}
+#main p {
+  color: rgba(255, 153, 153, 0.9);
+  font-size: 14px;
 }
