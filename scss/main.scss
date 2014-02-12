@@ -1,21 +1,11 @@
-//変数:データにつけるラベル
-//データ型（数値，文字列，真偽，色，リスト）
-//条件分岐 @if @else
-//== != < > <- >=
+//ループ @for @while
 
-$debugMode: true;
-$x: 10;
+@for $i from 10 through 14{
+  .fs#{$i}{font-size: #{$i}px;}
+}
 
-#main{
-  @if $debugMode == true{
-    color: red;
-  }
-  else{
-    color: green;
-  }
-  p{
-    @if $x > 20{
-      color: yellow;
-    }
-  }
+$i: 10;
+@while $i <= 14{
+  .fs#{$i}{font-size: #{$i}px;}
+  $i: $i + 1;
 }
