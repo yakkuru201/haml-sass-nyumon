@@ -1,14 +1,12 @@
 //変数:データにつけるラベル
 //データ型（数値，文字列，真偽，色，リスト）
 
-$baseFontSize: 14px; //同時に扱える便利
+$imgDir: "../img/";
 
 #main{
   width: 90%;
+  background: url("#{$imgDir}bg.png")
   p{
-    font-size: $baseFontSize;
-    .sub{
-      font-size: $baseFontSize - 2px;
-    }
+    font-size: #{12 + 12}px;
   }
 }
