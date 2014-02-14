@@ -1,7 +1,10 @@
 $totalWidth: 940px;
-$columnCount: 5;
+$columnCount: 10;
 
 @function getColumnWidth($width, $count){
+  $padding: 10px;
+  $columnWidth: floor($width - ($padding * ($count - 1))) / $count;
+  @debug $columnWidth;
   @return $columnWidth;
 }
 
