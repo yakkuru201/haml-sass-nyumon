@@ -1,5 +1,11 @@
-// $animals: cat, dog, tiger;
+$totalWidth: 940px;
+$columnCount: 5;
 
-@each $animal in cat, dog, tiger{
-  .#{animal}-icon {background: url("#{$animal}.png");}
+@function getColumnWidth($width, $count){
+  @return $columnWidth;
+}
+
+.grid{
+  float: left;
+  width: getColumnWidth($totalWidth, $columnCount);
 }
