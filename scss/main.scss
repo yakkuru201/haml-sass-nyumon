@@ -5,3 +5,12 @@
   float: left;
   width: getColumnWidth($totalWidth, $columnCount);
 }
+
+@mixin round($radius:4px){
+  border-radius: $radius;
+}
+
+.label{
+  font-size: 12px;
+  @include round(5px);
+}
