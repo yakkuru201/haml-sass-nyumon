@@ -1,9 +1,15 @@
-.grid {
-  float: left;
-  width: 180px;
+.msg, .warningMsg {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 4px;
+  color: white;
 }
 
-.label {
-  font-size: 12px;
-  border-radius: 5px;
+.errorMsg {
+  @exteng .msg;
+  background: red;
+}
+
+.warningMsg {
+  background: orange;
 }

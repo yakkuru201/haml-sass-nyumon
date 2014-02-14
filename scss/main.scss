@@ -1,16 +1,16 @@
-@import "settings";
-@import "functions";
-
-.grid{
-  float: left;
-  width: getColumnWidth($totalWidth, $columnCount);
-}
-
-@mixin round($radius:4px){
-  border-radius: $radius;
-}
-
-.label{
+.msg{
   font-size: 12px;
-  @include round(5px);
+  font-weight: bold;
+  padding: 2px 4px;
+  color: white;
+}
+
+.errorMsg{
+  @exteng .msg;
+  background: red;
+}
+
+.warningMsg{
+  @extend .msg;
+  background: orange;
 }
